@@ -186,7 +186,7 @@ function CinemaScreen({
           Welcome TO {title}
         </h1>
         {/* //subtitle */}
-        <p className="text-center text-gray-600 mb-6">{subTitle}</p>
+        <p className="text-center font-bold text-gray-600 mb-6">{subTitle}</p>
         <div>
           <Screen />
         </div>
