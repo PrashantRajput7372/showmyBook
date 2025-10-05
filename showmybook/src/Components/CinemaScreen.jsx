@@ -83,6 +83,7 @@ function CinemaScreen({
       seats.push(seatsRow);
     }
     return seats;
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [layout, seatType, bookedSeat]);
 
   const [seat, setSelectedSeat] = useState(initial);
